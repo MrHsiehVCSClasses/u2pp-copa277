@@ -4,6 +4,11 @@ import java.util.Scanner; //Allows you to use the Scanner objects
 
 /**
  * YOUR COMMENTS HERE
+ * 
+ * 
+ * so what i am dong here is creating a new varrialbe for each new scanner input to be stored in so that icould use it later to construct the object
+ * i then construct the gas added and distnace wnet as variabls and place holders for actual nubmers to go into so that i can use the method drive and add gas, to get the intended values
+ * then i would just use the return methods to make it actually be typed, and this saves me time
  */
 
 class Main {
@@ -39,6 +44,7 @@ class Main {
   
 /**
    * YOUR COMMENT HERE
+   * THIS ONE IS VERY SIMPLE, I AM JUST GOING TO HAVE TWO SEPEERATE VARIABLES THAT CREATE A SUBSTRING BASED ON THE INDEX FOR EACH WORD, AND BECUASE IT IS CONCLUSIVE I NEED TO MAKE THE END 1PLUS 1 AND FINALLY I AM JUST GOING TO RETURN THEM ADDED TOOGETHER THANK YOU 
    * @param word1 The first string to take a piece out of
    * @param start1 The starting index of the substring of word1
    * @param end1 The ending index of the substring of word1 (inclusive)

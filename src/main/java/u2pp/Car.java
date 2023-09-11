@@ -29,6 +29,7 @@ public class Car {
     
     /**
      * YOUR COMMENT HERE
+     * for the param iw ould just add the amount of gas needed to the amount put inbu the p[erson
      * @param amount - the amount of gas to add to the tank
      */
     public void addGas (double amount) {
@@ -37,7 +38,7 @@ public class Car {
     }
     
     /**
-     * YOUR COMMENT HERE
+     * YOUR COMMENT HERE the distance is very simgple becuase efficency is miles/gas and then you are just trying to find the gas you would multiply the gas by the distance and divided the distnace by the miles, and substract that amount of gas from the original to get what you ahve now
      * @param distance - the distance that the car has driven
      */
     public void drive (double distance) {
@@ -47,6 +48,7 @@ public class Car {
     
     /**
      * @return The amount of gas currently in the tank
+     * i would just take the amt of gas used, in the last method, and let it do it for me and just return that
      */
     public double getGasInTank() {
         //YOUR CODE HERE
@@ -55,6 +57,7 @@ public class Car {
     
     /**
      * @return The make and model of the car
+     * these are just past variables put in place, just need to replace it with the variable name 
      */
      public String getMakeAndModel() {
        return make + " " + model;
@@ -62,6 +65,7 @@ public class Car {
     
     /**
      * @return The efficiency of the car. Used for testing purposes
+     * this would just be the normal eficenyt,wharever being returned is the samount that the person tped in v simple
      */
     public double getMpg() {
         return mpg;
